@@ -1,4 +1,3 @@
-avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os -std=c99 -o TrafficLight.elf TrafficLight.c
 # Smart Pedestrian Traffic Light
 
 A robust, real-world traffic light system for vehicles and pedestrians, implemented in both Arduino (.ino) and bare-metal AVR-C (.c) for ATmega328P. This project demonstrates advanced embedded design, sensor integration, and state machine logic.
